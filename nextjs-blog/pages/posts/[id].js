@@ -31,7 +31,7 @@ export async function getStaticProps({params}) {
 }
 
 
-const Post = () => {
+const Post = ({postData, id}) => {
 
     return ( 
         <Layout>
